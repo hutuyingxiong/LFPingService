@@ -6,15 +6,15 @@
 //  Copyright © 2016年 姜淞文. All rights reserved.
 //
 
-#import "DiagnosisManager.h"
+#import "LFDiagnosisManager.h"
 #import <UIKit/UIKit.h>
 #import "sys/utsname.h"
 #import <AVFoundation/AVFoundation.h>
 #import<SystemConfiguration/SCNetworkReachability.h>
 
 
-@implementation DiagnosisManager
-static DiagnosisManager *manager = nil;
+@implementation LFDiagnosisManager
+static LFDiagnosisManager *manager = nil;
 
 - (instancetype)init {
     if (self = [super init]) {
@@ -26,7 +26,7 @@ static DiagnosisManager *manager = nil;
 + (instancetype)shareManager {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        manager = [[DiagnosisManager alloc]init];
+        manager = [[LFDiagnosisManager alloc]init];
     });
     return manager;
 }

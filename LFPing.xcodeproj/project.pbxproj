@@ -22,8 +22,8 @@
 
 /* Begin PBXBuildFile section */
 		731875B01DDC0BE100CC6609 /* LFPing.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875A21DDC0BE100CC6609 /* LFPing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		731875CF1DDC0D4D00CC6609 /* DiagnosisManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875BE1DDC0D4D00CC6609 /* DiagnosisManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		731875D01DDC0D4D00CC6609 /* DiagnosisManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 731875BF1DDC0D4D00CC6609 /* DiagnosisManager.m */; };
+		731875CF1DDC0D4D00CC6609 /* LFDiagnosisManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875BE1DDC0D4D00CC6609 /* LFDiagnosisManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		731875D01DDC0D4D00CC6609 /* LFDiagnosisManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 731875BF1DDC0D4D00CC6609 /* LFDiagnosisManager.m */; };
 		731875D11DDC0D4D00CC6609 /* LFNetConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875C01DDC0D4D00CC6609 /* LFNetConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		731875D21DDC0D4D00CC6609 /* LFNetConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 731875C11DDC0D4D00CC6609 /* LFNetConnect.m */; };
 		731875D31DDC0D4D00CC6609 /* LFNetDiagnoService.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875C21DDC0D4D00CC6609 /* LFNetDiagnoService.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,15 +38,15 @@
 		731875DC1DDC0D4D00CC6609 /* LFNetTraceRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 731875CB1DDC0D4D00CC6609 /* LFNetTraceRoute.m */; };
 		731875DD1DDC0D4D00CC6609 /* LFSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875CC1DDC0D4D00CC6609 /* LFSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		731875DE1DDC0D4D00CC6609 /* LFSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 731875CD1DDC0D4D00CC6609 /* LFSimplePing.m */; };
-		731875DF1DDC0D4D00CC6609 /* Route.h in Headers */ = {isa = PBXBuildFile; fileRef = 731875CE1DDC0D4D00CC6609 /* Route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0DBEEC01DDC4093000A8691 /* Route.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DBEEBE1DDC3FBB000A8691 /* Route.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7318759F1DDC0BE100CC6609 /* LFPing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LFPing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		731875A21DDC0BE100CC6609 /* LFPing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFPing.h; sourceTree = "<group>"; };
 		731875A31DDC0BE100CC6609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		731875BE1DDC0D4D00CC6609 /* DiagnosisManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagnosisManager.h; sourceTree = "<group>"; };
-		731875BF1DDC0D4D00CC6609 /* DiagnosisManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiagnosisManager.m; sourceTree = "<group>"; };
+		731875BE1DDC0D4D00CC6609 /* LFDiagnosisManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDiagnosisManager.h; sourceTree = "<group>"; };
+		731875BF1DDC0D4D00CC6609 /* LFDiagnosisManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDiagnosisManager.m; sourceTree = "<group>"; };
 		731875C01DDC0D4D00CC6609 /* LFNetConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNetConnect.h; sourceTree = "<group>"; };
 		731875C11DDC0D4D00CC6609 /* LFNetConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNetConnect.m; sourceTree = "<group>"; };
 		731875C21DDC0D4D00CC6609 /* LFNetDiagnoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNetDiagnoService.h; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		731875CB1DDC0D4D00CC6609 /* LFNetTraceRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNetTraceRoute.m; sourceTree = "<group>"; };
 		731875CC1DDC0D4D00CC6609 /* LFSimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFSimplePing.h; sourceTree = "<group>"; };
 		731875CD1DDC0D4D00CC6609 /* LFSimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFSimplePing.m; sourceTree = "<group>"; };
-		731875CE1DDC0D4D00CC6609 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
+		C0DBEEBE1DDC3FBB000A8691 /* Route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Route.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +94,9 @@
 		731875A11DDC0BE100CC6609 /* LFPing */ = {
 			isa = PBXGroup;
 			children = (
-				731875BE1DDC0D4D00CC6609 /* DiagnosisManager.h */,
-				731875BF1DDC0D4D00CC6609 /* DiagnosisManager.m */,
+				C0DBEEBE1DDC3FBB000A8691 /* Route.h */,
+				731875BE1DDC0D4D00CC6609 /* LFDiagnosisManager.h */,
+				731875BF1DDC0D4D00CC6609 /* LFDiagnosisManager.m */,
 				731875C01DDC0D4D00CC6609 /* LFNetConnect.h */,
 				731875C11DDC0D4D00CC6609 /* LFNetConnect.m */,
 				731875C21DDC0D4D00CC6609 /* LFNetDiagnoService.h */,
@@ -110,7 +111,6 @@
 				731875CB1DDC0D4D00CC6609 /* LFNetTraceRoute.m */,
 				731875CC1DDC0D4D00CC6609 /* LFSimplePing.h */,
 				731875CD1DDC0D4D00CC6609 /* LFSimplePing.m */,
-				731875CE1DDC0D4D00CC6609 /* Route.h */,
 				731875A21DDC0BE100CC6609 /* LFPing.h */,
 				731875A31DDC0BE100CC6609 /* Info.plist */,
 			);
@@ -124,8 +124,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				731875DF1DDC0D4D00CC6609 /* Route.h in Headers */,
-				731875CF1DDC0D4D00CC6609 /* DiagnosisManager.h in Headers */,
+				C0DBEEC01DDC4093000A8691 /* Route.h in Headers */,
+				731875CF1DDC0D4D00CC6609 /* LFDiagnosisManager.h in Headers */,
 				731875B01DDC0BE100CC6609 /* LFPing.h in Headers */,
 				731875D71DDC0D4D00CC6609 /* LFNetPing.h in Headers */,
 				731875D31DDC0D4D00CC6609 /* LFNetDiagnoService.h in Headers */,
@@ -234,7 +234,7 @@
 				731875DE1DDC0D4D00CC6609 /* LFSimplePing.m in Sources */,
 				731875DC1DDC0D4D00CC6609 /* LFNetTraceRoute.m in Sources */,
 				731875D41DDC0D4D00CC6609 /* LFNetDiagnoService.m in Sources */,
-				731875D01DDC0D4D00CC6609 /* DiagnosisManager.m in Sources */,
+				731875D01DDC0D4D00CC6609 /* LFDiagnosisManager.m in Sources */,
 				731875D61DDC0D4D00CC6609 /* LFNetGetAddress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +413,7 @@
 				731875B51DDC0BE100CC6609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		731875BA1DDC0C7F00CC6609 /* Build configuration list for PBXAggregateTarget "LFPing-universal" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				731875BC1DDC0C7F00CC6609 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

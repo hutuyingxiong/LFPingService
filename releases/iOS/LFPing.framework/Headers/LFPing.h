@@ -16,11 +16,12 @@ FOUNDATION_EXPORT const unsigned char LFPingVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <LFPing/PublicHeader.h>
 
-#import <LFPing/LFDiagnosisManager.h>
-#import <LFPing/LFNetConnect.h>
-#import <LFPing/LFNetDiagnoService.h>
-#import <LFPing/LFNetGetAddress.h>
-#import <LFPing/LFNetPing.h>
-#import <LFPing/LFNetTimer.h>
-#import <LFPing/LFNetTraceRoute.h>
-#import <LFPing/LFSimplePing.h>
+#import <LFNetDiagnoService/LFDiagnosisManager.h>
+#import <LFNetDiagnoService/LFNetConnect.h>
+#import <LFNetDiagnoService/LFNetDiagnoService.h>
+#import <LFNetDiagnoService/LFNetGetAddress.h>
+#import <LFNetDiagnoService/LFNetPing.h>
+#import <LFNetDiagnoService/LFNetTimer.h>
+#import <LFNetDiagnoService/LFNetTraceRoute.h>
+#import <LFNetDiagnoService/LFSimplePing.h>
+#import <LFNetDiagnoService/Route.h>

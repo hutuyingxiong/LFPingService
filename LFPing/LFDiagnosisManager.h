@@ -10,7 +10,7 @@
 /**
  * 硬件信息管理
  */
-@interface DiagnosisManager : NSObject
+@interface LFDiagnosisManager : NSObject
 + (instancetype)shareManager;
 @property (nonatomic,copy)void(^managerBlock)();
 /**

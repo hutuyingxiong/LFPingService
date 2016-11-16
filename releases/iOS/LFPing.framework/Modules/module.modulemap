@@ -1,0 +1,6 @@
+framework module LFPing {
+  umbrella header "LFPing.h"
+
+  export *
+  module * { export * }
+}
