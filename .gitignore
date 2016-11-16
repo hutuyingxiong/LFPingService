@@ -1,0 +1,44 @@
+# Create by wangxiaoxiang
+# 2016-08-29
+
+# infer
+infer-out/
+
+# CocoaPods
+LaiFeng.xcworkspace/
+Pods/
+Podfile.lock
+
+# Xcode
+*.pbxuser
+*.perspective
+*.perspectivev3
+
+*.mode1v3
+*.mode2v3
+
+*.xcodeproj/xcuserdata/*.xcuserdatad
+
+*.xccheckout
+*.xcuserdatad
+
+# Build
+DerivedData
+build
+
+# Documents
+docs/_site
+docs/htdocs
+docs/.sass-cache
+
+# Mac file system
+.DS_Store
+
+#Other
+*.swp
+
+*.lock
+
+*.gcov
+*.gcno
+*.gcda
